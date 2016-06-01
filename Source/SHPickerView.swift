@@ -21,8 +21,8 @@ public class SHPickerView: UIView {
         }
     }
     
-    private var toolbar = UIToolbar()
-    private var picker = UIPickerView()
+    public var toolbar = UIToolbar()
+    public var picker = UIPickerView()
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
